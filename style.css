@@ -30,22 +30,64 @@ body {
 .first-container-second-first {
     border: 5px solid purple;
     background-color: oklch(27.8% 0.033 256.848);
-        height: 153px;
+    height: 153px;
     width: 369px;
 }
 
+.first-container-second-third {
+    border: 2px solid red;
+    height: 65px;
+    width: 332px;
+    justify-self: center;
+    margin-top: 38px;
+     background-image: linear-gradient(red,rgb(255, 133, 133));
+    
+}
 
 #second-container {
     border: 2px solid black;
-   width: 985px;
+    width: 985px;
     height: 335px;
     align-self: center;
     margin-top: 10px;
     background-color: oklch(27.846% 0.04552 264.165);
+    display: flex;
+    justify-content: space-around;
 }
 
+.second-container-parts {
+    border: 2px solid blue;
+   width: 487px;
+    height: 329px;
+    
+}
 
+#second-container-first-part1 {
+    display: flex;
+    justify-content: space-around;
+}
 
+.second-container-first-part2 {
+    
+    flex-direction: column;
+   width: 137px;
+    height: 118px;
+    border: 2px solid pink;
+    background-image: linear-gradient(blue,skyblue);
+    
+}
+
+#second-container-second-part1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-container-second-part2 {
+   width: 137px;
+    height: 118px;
+    border: 2px solid pink;
+    background-image: linear-gradient(orange,rgb(255, 226, 173));
+}
 
 #q1-div {
     width: 165px;
@@ -53,7 +95,7 @@ body {
     background-color: orange;
     border-radius: 20px;
     margin-top: 30px;
-        margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -64,7 +106,7 @@ body {
     font-size: 20px;
     margin-top: 12px;
 
-    
+
 }
 
 .name-p {
@@ -76,9 +118,35 @@ body {
 .p-number {
     font-family: "Raleway Dots", sans-serif;
 
-  font-weight: 400;
+    font-weight: 400;
     font-size: 50px;
     text-align: center;
     color: red;
-    
+
+}
+
+.inner-text-score {
+    margin-top: 14;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+button {
+    background-color: oklch(27.846% 0.04552 264.165);
+    border: 0px;
+}
+
+.p-sub {
+    align-self: center;
+    color: white;
+    padding-left: 75px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.sdn-btn {
+    background-color: red;
 }
