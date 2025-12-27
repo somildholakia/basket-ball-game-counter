@@ -1,0 +1,84 @@
+body {
+    background-color: oklch(70.5% 0.213 47.604);
+    display: flex;
+    flex-direction: column;
+}
+
+#heading {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 16px;
+}
+
+#first-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 985px;
+    height: 335px;
+    background-color: oklch(21% 0.034 264.665);
+}
+
+#first-container-second {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-container-second-first {
+    border: 5px solid purple;
+    background-color: oklch(27.8% 0.033 256.848);
+        height: 153px;
+    width: 369px;
+}
+
+
+#second-container {
+    border: 2px solid black;
+   width: 985px;
+    height: 335px;
+    align-self: center;
+    margin-top: 10px;
+    background-color: oklch(27.846% 0.04552 264.165);
+}
+
+
+
+
+#q1-div {
+    width: 165px;
+    height: 49px;
+    background-color: orange;
+    border-radius: 20px;
+    margin-top: 30px;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+#q1 {
+    color: white;
+    text-shadow: 1px 1px 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 12px;
+
+    
+}
+
+.name-p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.p-number {
+    font-family: "Raleway Dots", sans-serif;
+
+  font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    
+}
