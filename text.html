@@ -30,16 +30,18 @@
             <div>
                 <p class="name-p">HOME</p>
                 <div class="first-container-second-first">
-                    <P class="p-number">
+                    
+                        <p class="p-number" id="home-count">
                         <b> 0 </b>
-                    </P>
+                    </p>
+                  
                 </div>
             </div>
 
             <div>
                 <P class="name-p">AWAY</P>
                 <div class="first-container-second-first">
-                    <p class="p-number">
+                    <p class="p-number" id="away-count">
                         <b> 0 </b>
                     </p>
                 </div>
@@ -54,7 +56,7 @@
         <div class="second-container-parts">
             <p class="name-p">Home Team </p>
             <div id="second-container-first-part1">
-                <button>
+                <button onclick="add1_home()">
                     <div class="second-container-first-part2">
                         <p class="inner-text-score">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
@@ -72,7 +74,7 @@
                         </p>
                     </div>
                 </button>
-                <button>
+                <button onclick="add2_home()">
                     <div class="second-container-first-part2">
                         <p class="inner-text-score">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
@@ -91,7 +93,7 @@
 
                     </div>
                 </button>
-                <button class="inner-text-score">
+                <button onclick="add3_home()">
                     <div class="second-container-first-part2">
 
 
@@ -131,7 +133,7 @@
 
 
             <div id="second-container-second-part1">
-                <button>
+                <button onclick="add1_away()">
                     <div class="second-container-second-part2">
 
                         <p class="inner-text-score">
@@ -151,7 +153,7 @@
 
                     </div>
                 </button>
-                <button>
+                <button onclick="add2_away()">
                     <div class="second-container-second-part2">
 
                         <p class="inner-text-score">
@@ -171,7 +173,7 @@
 
                     </div>
                 </button>
-                <button>
+                <button onclick="add3_away()">
                     <div class="second-container-second-part2">
 
                         <p class="inner-text-score">
