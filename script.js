@@ -41,3 +41,21 @@ function add3_away(){
    document.getElementById("away-count").innerText = away_count
     console.log(away_count)
 }
+
+function sub_home_count(){
+    home_count -= 1
+    document.getElementById("home-count").innerText = home_count
+    console.log(home_count)
+}
+
+function sub_away_count(){
+    away_count -= 1
+    document.getElementById("away-count").innerText = away_count
+}
+
+function reset(){
+    home_count = 0
+    document.getElementById("home-count").innerText = home_count
+    away_count = 0
+    document.getElementById("away-count").innerText = away_count
+}

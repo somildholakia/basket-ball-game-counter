@@ -38,9 +38,13 @@ body {
     border: 2px solid red;
     height: 65px;
     width: 332px;
+    display: flex;
     justify-self: center;
+    align-self: center;
     margin-top: 38px;
      background-image: linear-gradient(red,rgb(255, 133, 133));
+     margin-left: 67px;
+     border-radius: 20px;
     
 }
 
@@ -59,7 +63,7 @@ body {
     border: 2px solid blue;
    width: 487px;
     height: 329px;
-    
+    display: inline-block
 }
 
 #second-container-first-part1 {
@@ -146,6 +150,20 @@ button {
     font-size: 20px;
 }
 
-.sdn-btn {
+#sdn-btn {
     background-color: red;
+}
+
+#third-container {
+    display: flex;
+    justify-content: center;
+}
+
+#reset-btn {
+    width: 120px;
+    height: 56px;
+    background-image: linear-gradient(pink,rgb(255, 228, 232));
+    border-radius: 8px;
+    margin-top: 20px;
+    
 }
