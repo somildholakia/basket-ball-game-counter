@@ -54,7 +54,7 @@ body {
     height: 335px;
     align-self: center;
     margin-top: 10px;
-    background-color: oklch(53.341% 0.11654 264.288);
+    background-color: oklch(49.873% 0.20163 262.863);
     display: flex;
     justify-content: space-around;
 }
