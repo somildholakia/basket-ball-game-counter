@@ -60,7 +60,7 @@ body {
 }
 
 .second-container-parts {
-    border: 2px solid blue;
+    border: 2px solid rgb(32, 32, 172);
    width: 487px;
     height: 329px;
     display: inline-block
